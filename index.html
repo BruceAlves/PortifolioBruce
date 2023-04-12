@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+
+
+            <div class="logo">
+                <img src="img/MicrosoftTeams-image.png" style="margin-left: 70%;" alt="">
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Home</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">currículo</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portifólio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contato</a></li>
+
+
+                </ul>
+
+
+            </nav>
+
+            <div class="gtranslate_wrapper"></div>
+            <script>window.gtranslateSettings = { "default_language": "pt", "native_language_names": true, "detect_browser_language": true, "languages": ["pt", "en"], "globe_color": "white", "wrapper_selector": ".gtranslate_wrapper", "horizontal_position": "left", "vertical_position": "top", "alt_flags": { "en": "usa", "pt": "brazil" }, "globe_size": 50 }</script>
+            <script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer></script>
+
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Meu perfil.jpg" alt="">
+            </div>
+            <h1>Bruce Wallace</h1>
+            <h2>Desenvolvedor FullStack |.NET | ASP.NET |</h2>
+            <div class="redes">
+                <a target="_blank"
+                    href="https://api.whatsapp.com/send?phone=5531997127523&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20data%20e%20um%20hor%C3%A1rio%20para%20conversamos."><i
+                        class="fa-brands fa-whatsapp"></i></i></a>
+                <a target="_blank" href="https://github.com/BruceAlves"><i class="fa-brands fa-github 2x"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/bruce-wallace-461127232/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a target="_blank"
+                    href="https://www.instagram.com/invites/contact/?i=o6u135hghxdx&utm_content=7f6bfx8"><i
+                        class="fa-brands fa-instagram"></i></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mim</h2>
+            <p><span>Olá, Sou Bruce Wallace de Barros Alves </span>tenho 23 anos, moro em Belo
+                Horizonte MG, no momento cursando na área de
+                desenvolvimento (Análise e desenvolvimento de sistemas) pela
+                UNOPAR (Universidade Norte do Paraná), procuro sempre estar
+                conectado a novas tendências tecnológicas e inovadoras, buscando atender da melhor forma a proposta do
+                cliente, trabalho com back-end (Linguagem C-sharp), utilizando as
+                tecnologias .NET Framework, .NET Core, ASP.NET e ASP.NET
+                Core, aprimorando meus conhecimentos em HTML, CSS , jQuery, JavaScript da melhor forma possível,
+                utilizando código
+                limpo e eficaz.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Dados Pessoais</h3>
+                    <ul>
+                        <li>
+                            <strong>Telefone</strong>
+                            (31) 9 97127523
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            brucewallace144@gmail.com
+                        </li>
+
+                        <li>
+                            <strong>Localização</strong>
+                            Belo Horizonte -MG
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desenvolvedor FullStack</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses
+                <div class="col">
+                    <h3>Interesses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Jogos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>Esportes</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Livros</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>Carros</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-desktop"></i>
+                            <span>Programar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>Musculação</span>
+                        </div>
+
+                    </div>
+                </div> -->
+            </div>
+            <a style="text-decoration: none;" href="Docs/Bruce Wallace (1).pdf" download>
+                Download CV <i class="fa-solid fa-download"></i>
+
+                <span class="overlay"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3></h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso" style=" border: 15px;">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C-sharp</span>
+                        <div class="barra-skill">
+                            <div class="progreso" >
+                                <span >100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>.NET Framework</span>
+                        <div class="barra-skill">
+                            <div class="progreso" >
+                                <span >81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>.NET Core</span>
+                        <div class="barra-skill">
+                            <div class="progreso" >
+                                <span >85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3></h3>
+                    <div class="skill">
+                        <span>ASP.NET Core</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span >80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Jquery</span>
+                        <div class="barra-skill">
+                            <div class="progreso" >
+                                <span >30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL Server</span>
+                        <div class="barra-skill">
+                            <div class="progreso" >
+                                <span >60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL Workbench</span>
+                        <div class="barra-skill">
+                            <div class="progreso" >
+                                <span >65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso" >
+                                <span >30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>currículo</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educação</h3>
+                    <div class="item izq">
+
+                        <span class="casa">Universidade do Norte do Paraná – UNOPAR.</span>
+                        <span class="fecha">Jan/2022 - Dez/2023</span>
+                        <p>Tecnólogo - Bacharel em Análise e desenvolvimento de sistemas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+
+                        <span class="casa">Iniciando com ASP.NET Core</span>
+                        <span class="fecha">Aug/2022 - Aug/2022</span>
+                        <p>Iniciando com uma nova tecnologia e novos conceitos em tipos de projeto, estrutura do
+                            projeto, wwwroot,
+                            Middlewares e inicialização</p>
+                        <a href="https://desenvolvedor.io/certificado/32fd529c-e0be-423c-90fc-da2c68b4f41d"
+                            style="text-decoration: none; font-weight: bold; font-family:'Work Sans', Courier, monospace; color: #1CB698;">
+                            <i class="fa-solid fa-award"></i>
+                            Certificado</a>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+
+                        <span class="casa">Curso - C# OOP + Lógica de Programação</span>
+                        <span class="fecha">Maio/2022 - Jun/2022</span>
+                        <p>Melhorando conceitos fundamentais de programação que são programação lógica e
+                            Programação Orientada a objeto .</p>
+                        <a href="https://www.udemy.com/certificate/UC-52ec2371-0eb7-42e1-b077-75cfd13932c9/"
+                            style="text-decoration: none; font-weight: bold; font-family:'Work Sans', Courier, monospace; color: #1CB698;">
+                            <i class="fa-solid fa-award"></i>
+                            Certificado</a>
+
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+
+                        <span class="casa">Dominando ASP.NET CORE MVC</span>
+                        <span class="fecha">Fev/2023 - Estudando</span>
+                        <p>Aplicando e aprimorando conceitos de MVC, Model view e controllers, criando um MVC Core
+                            aplicação com
+                            .NET6 sem template, entendendo mais sobre ferramentas Front-End, Bunding e Minification
+                            ferramentas,
+                            Auxiliares de marca personalizados, PartialViews, ComponentViews, Entity Framework e
+                            trabalhando com
+                            Migrações.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiência de trabalho</h3>
+                    <div class="item der">
+                        <h4>Estagiário em Desenvolvimento</h4>
+                        <span class="casa">REPLY do Brasil</span>
+                        <span class="fecha">Set de 2022 - data presente</span>
+                        <p>Atuando pela Petronas Lubrificantes Internacional em Projeto
+                            Gestão/Finanças usando ASP.NET Core MVC, C#, Razor Pages, JQuery, SQL
+                            Servidor e realizando testes de unidade (MSTest) e testes funcionais, trabalhando também em
+                            resolução de incidentes e pela Stellantis em um projeto de gerenciamento de recall usando
+                            .NET 6, API, C#, React.JS e banco de dados relacional MySQL realizando testes
+                            unitário (XUnit) e funcional.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTIFÓLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/3bl.jpg" style="height: 200px;" alt="">
+                    <div class="overlay">
+                        <h3>Biblioteca</h3>
+                        <p>.NET Framework, utilizando Windows forms.</p><br>
+                        <p>Projeto Acadêmico</p><br>
+                        <a href="https://github.com/BruceAlves/Gestao-de-uma-biblioteca" target="_blank"
+                            style="text-decoration: none; color: white;">Reposiório</a>
+
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/bw.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>BWSports</h3>
+                        <p>.NET Core, utilizando Web forms.</p><br>
+                        <p>Projeto Acadêmico</p><br>
+                        <a href="https://github.com/BruceAlves/BwSports-WebForms" target="_blank"
+                            style="text-decoration: none; color: white;">Reposiório</a>
+
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/crudcontatos.jpeg" style="height: 210px;" alt="">
+                    <div class="overlay">
+                        <h3>Lista/Contatos</h3>
+                        <p>ASP.NET Core, utilizando Padrão MVC.</p><br>
+                        <p>Projeto Acadêmico</p><br>
+                        <a href="https://github.com/BruceAlves/Crud-Contatos-MVC" target="_blank"
+                            style="text-decoration: none; color: white;">Reposiório</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+
+                <form class="col" action="https://formsubmit.co/brucewallace144@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="e-mail" required>
+
+                    <textarea cols="30" rows="10" name="message" placeholder="Digite sua mensagem" required></textarea>
+
+                    <button>
+                        Enviar<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+
+                    <input type="hidden" name="_subject" value="Novo Contato!">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/unnamed.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Belfort Roxo 40 apt 401, Belo Horizonte
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Telefonte: (31) 9 97127523
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email:brucewallace144@gmal.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a target="_blank"
+                href="https://api.whatsapp.com/send?phone=5531997127523&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20data%20e%20um%20hor%C3%A1rio%20para%20conversamos."><i
+                    class="fa-brands fa-whatsapp"></i></i></a>
+            <a target="_blank" href="https://github.com/BruceAlves"><i class="fa-brands fa-github 2x"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/bruce-wallace-461127232/"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a target="_blank" href="https://www.instagram.com/invites/contact/?i=o6u135hghxdx&utm_content=7f6bfx8"><i
+                    class="fa-brands fa-instagram"></i></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
