@@ -30,7 +30,7 @@ html{
     font-family: 'Righteous';
     font-size: 36px;
     color: 
-    #1CB698;
+    #ffffff;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -59,7 +59,7 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(32, 30, 38, 0), rgba(30, 35, 38, 0.397)),
-    url(https://i.pinimg.com/originals/d7/33/34/d733345e4f11231904e7634a04439e21.gif);
+    url(img/undefined\ -\ Imgur.gif);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -78,9 +78,11 @@ html{
     margin-top: 40px;
     border: 10px solid #ececec;
     display: block;
-    width: 80%;
+    width: 100%;
     margin: auto;
     border-radius: 100%;
+   
+    transform: rotate();
 }
 .inicio .contenido-banner h1{
     margin-top: 40px;
@@ -120,7 +122,7 @@ html{
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0
 
 }
 .sobremi .contenido-seccion p{
@@ -276,7 +278,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 50%;}
+    100%{width:70%;}
 }
 
 .skills .skill .htmlcss{
@@ -285,16 +287,16 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 80%;}
 }
 
 
 
 .skills .skill .photoshop{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s ccharp forwards;
 }
-@keyframes photoshop {
+@keyframes ccharp {
     0%{width: 0%;}
     100%{width: 100%;}
 }
@@ -310,11 +312,11 @@ html{
 
 .skills .skill .drupal{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s NetCore forwards;
 }
-@keyframes drupal {
+@keyframes NetCore {
     0%{width: 0%;}
-    100%{width: 85%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .comunicacion{
@@ -332,25 +334,25 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 30%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .creatividad{
     width: 0%;
-    animation: 2s creatividad forwards;
+    animation: 2s Sql forwards;
 }
-@keyframes creatividad {
+@keyframes Sql {
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .dedicacion{
     width: 0%;
-    animation: 2s dedicacion forwards;
+    animation: 2s Mysql forwards;
 }
-@keyframes dedicacion {
+@keyframes Mysql {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .proyect{
@@ -717,3 +719,4 @@ footer .arriba{
         width: 100%;
     }
 }
+
