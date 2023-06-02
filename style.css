@@ -363,6 +363,28 @@ html{
     0%{width: 0%;}
     100%{width: 30%;}
 }
+
+.barra-skill {
+    width: 100%;
+    background-color: #ccc;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progreso {
+    width: 30%;
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
+
+.progreso span {
+    color: white;
+    line-height: 10px;
+    padding: 0 5px;
+}
+
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
