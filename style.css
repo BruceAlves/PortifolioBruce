@@ -492,61 +492,100 @@ html{
     bottom: 4px;
 }
 /* SECCION PORTFOLIO */
-.portfolio{
-    background-color: #252A2E;
-    color: #fff;
-    padding: 50px 20px;
-}
-.portfolio .contenido-seccion{
-    max-width: 1100px;
-    margin: auto;
-}
-.portfolio h2{
-    font-size: 48px;
-    font-family: 'Righteous';
-    text-align: center;
-    padding: 20px 0;
-}
-.portfolio .galeria{
-    display: flex;
+
+.container {
     flex-wrap: wrap;
-    justify-content: space-around;
-}
-.portfolio .galeria .proyecto{
-    position: relative;
-    max-width: 340px;
-    height: fit-content;
-    margin: 10px;
-    cursor: pointer;
-}
-.portfolio .galeria .proyecto img{
-    width: 100%;
-    display: block;
-}
-.portfolio .galeria .proyecto .overlay{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    transition: 1s;
-    font-size: 18px;
-    letter-spacing: 3px;
-    opacity: 0;
+    align-items: center;
+    text-align: center;
 }
-.portfolio .galeria .proyecto .overlay h3{
-    margin-bottom: 20px;
-    transition: 1s;
+
+.flip {
+    position: relative;
+    align-items: center;
+
+    >.front,
+    >.back {
+        display: block;
+        transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
+        transition-duration: .5s;
+        transition-property: transform, opacity;
+    }
+
+    >.front {
+        transform: rotateY(0deg);
+    }
+
+    >.back {
+        position: absolute;
+        opacity: 0;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        transform: rotateY(-180deg);
+    }
+
+
+    &:hover {
+        >.front {
+            transform: rotateY(180deg);
+        }
+
+        >.back {
+            opacity: 1;
+            transform: rotateY(0deg);
+        }
+    }
+
+    &.flip-vertical {
+        >.back {
+            transform: rotateX(-180deg);
+        }
+
+        &:hover {
+            >.front {
+                transform: rotateX(180deg);
+            }
+
+            >.back {
+                transform: rotateX(0deg);
+            }
+        }
+    }
 }
-.portfolio .galeria .proyecto .overlay:hover{
-    opacity: 1;
+
+.flip {
+    position: relative;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 1em;
+    width: 400px;
 }
-.portfolio .galeria .proyecto .overlay:hover h3{
-    margin-bottom: 0px;
+
+.flip>.front,
+.flip>.back {
+    display: block;
+    color: white;
+    width: inherit;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 220px;
+    padding: 1em 2em;
+    background: #1e2124;
+    border-radius: 10px;
+}
+
+.flip>.front p {
+    font-size: 0.9125rem;
+    line-height: 160%;
+    color: #999;
+}
+.text-shadow {
+    color: white; /* Definindo a cor do texto como branco */
+    background-color: rgba(46, 48, 46, 0.437); /* Definindo uma cor de fundo com transparência */
+    padding: 10px; /* Adicionando um espaçamento interno para melhorar a legibilidade */
+    border-radius: 10px; /* Adicionando um arredondamento nos cantos */
 }
 /* SECCION CONTACTO */
 .contacto{
