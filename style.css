@@ -54,11 +54,11 @@ html {
 }
 
 .contenedor-header header nav ul li a:hover {
-    color: #6b8e23;
+    color: #0c5a5b;
 }
 
 .nav-responsive {
-    background-color: #6b8e23;
+    background-color: #0c5a5b;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -68,8 +68,8 @@ html {
 
 /* SECCION I N I C I O */
 .inicio {
-    background: linear-gradient(to top, rgba(32, 30, 38, 0), rgba(30, 35, 38, 0.397)),
-        url(img/undefined\ -\ Imgur.gif);
+    background: linear-gradient(to top, rgba(92, 92, 92, 0), rgba(83, 83, 83, 0.397)),
+        url(img/retro-delorean-floating-moewalls-com.gif);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -79,11 +79,12 @@ html {
 
 .inicio .contenido-banner {
     padding: 20px;
-    background-color: #1e232600;
+    background-color: #bdbabaa2;
     max-width: 350px;
     margin: auto;
     text-align: center;
     border-radius: 40px;
+    position: relative; /* Adiciona uma posição relativa */
 }
 
 .inicio .contenido-banner img {
@@ -112,7 +113,6 @@ html {
     color: #fff;
     display: inline-block;
     text-decoration: none;
-    border: 1px solid #fff;
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -122,9 +122,9 @@ html {
     transition: .3s;
 }
 
-.inicio .contenido-banner .redes a:hover {
-    background-color: #6b8e23;
-}
+/* .inicio .contenido-banner .redes a:hover {
+    background-color: #ffffff;
+} */
 
 .sobremi {
     background-color: #1e2326;
@@ -151,7 +151,7 @@ html {
 }
 
 .sobremi .contenido-seccion p span {
-    color: #6b8e23;
+    color: #148688;
     font-weight: bold;
 }
 
@@ -179,12 +179,12 @@ html {
 
 .sobremi .fila .col ul li strong {
     display: inline-block;
-    color: #6b8e23;
+    color: #0c5a5b;
     width: 130px;
 }
 
 .sobremi .fila .col ul li span {
-    background-color: #6b8e23;
+    background-color: #0c5a5b;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -209,7 +209,7 @@ html {
 }
 
 .sobremi .fila .col .contenedor-intereses .interes:hover {
-    background-color: #6b8e23;
+    background-color: #0c5a5b;
 }
 
 .sobremi .fila .col .contenedor-intereses .interes i {
@@ -237,7 +237,7 @@ html {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #6b8e23;
+    background-color: #0c5a5b;
     z-index: -1;
     transition: 1s;
 }
@@ -296,7 +296,7 @@ html {
 }
 
 .skills .skill .progreso {
-    background-color: #6b8e23;
+    background-color: #0c5a5b;
     position: absolute;
     top: 0;
     left: 0;
@@ -307,7 +307,7 @@ html {
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #6b8e23;
+    background-color: #0c5a5b;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -492,7 +492,7 @@ html {
 }
 
 .progreso {
-    background-color: #6b8e23;
+    background-color: #0c5a5b;
     height: 100%;
     border-radius: 5px;
 }
@@ -560,7 +560,7 @@ html {
 }
 
 .curriculum .fila .item .casa {
-    color: #6b8e23;
+    color: #12898b;
     font-size: 22px;
     font-weight: bold;
     display: block;
@@ -568,7 +568,7 @@ html {
 
 .curriculum .fila .item .fecha {
     display: block;
-    color: #6b8e23;
+    color: #0c5a5b;
     margin-bottom: 10px;
 }
 
@@ -577,18 +577,18 @@ html {
 }
 
 .curriculum .fila .izq {
-    border-right: 2px solid #6b8e23;
+    border-right: 2px solid #0c5a5b;
     margin-right: 20px;
 }
 
 .curriculum .fila .der {
-    border-left: 2px solid #6b8e23;
+    border-left: 2px solid #0c5a5b;
     margin-left: 20px;
 }
 
 .curriculum .fila .item .conectori {
     height: 2px;
-    background-color: #6b8e23;
+    background-color: #0c5a5b;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -601,7 +601,7 @@ html {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #6b8e23;
+    background-color: #0c5a5b;
     float: right;
     position: relative;
     bottom: 4px;
@@ -609,7 +609,7 @@ html {
 
 .curriculum .fila .item .conectord {
     height: 2px;
-    background-color: #6b8e23;
+    background-color: #0c5a5b;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -622,7 +622,7 @@ html {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #6b8e23;
+    background-color: #0c5a5b;
     float: left;
     position: relative;
     bottom: 4px;
@@ -672,7 +672,7 @@ html {
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(111, 153, 77, 0.8), rgba(111, 153, 77, 0.8));
+    background: linear-gradient(#0c5a5b, rgba(#0c5a5b));
     flex-direction: column;
     justify-content: center;
     transition: 1s;
@@ -756,7 +756,7 @@ html {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #6b8e23;
+    background-color: #148688;
     z-index: -1;
     transition: 1s;
 }
@@ -789,7 +789,7 @@ html {
 }
 
 .contacto .col .info ul li i {
-    color: #6b8e23;
+    color: #0c5a5b;
     display: inline-block;
     margin-right: 20px;
 }
@@ -825,7 +825,7 @@ footer .arriba {
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #6b8e23;
+    background-color: #0c5a5b;
     color: #fff;
     position: absolute;
     left: 50%;
@@ -920,112 +920,6 @@ footer .arriba {
         width: 100%;
     }
 }
-
-/* 
-.container {
-    overflow: hidden;
-    padding: 20px;
-    margin-top: 2em;
-    background: rgba(0,0,0,.1)
-  }
-  
-  .card-carousel {
-    --card-width: 80%;
-    --card-max-width: 280px;
-    --card-height: 350px;
-    --carousel-min-width: 600px;
-    z-index: 1;
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    height: var(--card-height);
-    min-width: var(--carousel-min-width);
-    transition: filter .3s ease;
-  }
-  
-  @media screen and (max-width: 640px) {
-    .card-carousel {
-      margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
-    }
-  }
-  
-  .card-carousel.smooth-return {
-    transition: all .2s ease;
-  }
-  
-  .card-carousel .card {
-    background: whitesmoke;
-    width: var(--card-width);
-    max-width: var(--card-max-width);
-    text-align: center;
-    padding: 1em;
-    min-width: 250px;
-    height: var(--card-height);
-    position: absolute;
-    margin: 0 auto;
-    color: rgba(0,0,0,.5);
-    transition: inherit;
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
-    border-radius: 1em;
-    filter: brightness(.9);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .card.highlight {
-    filter: brightness(1)
-  }
-  
-  
-  .card:nth-of-type(1) .image-container {
-      background-image: url("img/3bl.jpg");
-  }
-   
-  .card:nth-of-type(2) .image-container {
-    background-image: url("img/bw.jpeg")
-  }
-  
-  .card:nth-of-type(3) .image-container {
-    background-image: url("img/crudcontatos.jpeg")
-  }
-  .card:nth-of-type(4) .image-container {
-    background-image: url("https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
-  }
-  .card:nth-of-type(5) .image-container {
-    background-image: url("https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg")
-  }
-  
-  
-  
-  .image-container {
-    width: 8em;
-    height: 8em;
-    position: relative;
-    background-size: cover;
-    margin-bottom: 2em;
-    border-radius: 100%;
-    padding: 1em;
-    -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
-  -moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
-  box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
-    
-  }
-  
-  .image-container::after {
-    content: "";
-    display: block;
-    width: 120%;
-    height: 120%;
-    border: solid 3px rgba(0,0,0,.1);
-    border-radius: 100%;
-    position: absolute;
-    top: calc(-10% - 3px);
-    left: calc(-10% - 3px);
-  } */
 
 /* novo */
 
