@@ -68,11 +68,10 @@ html {
 
 /* SECCION I N I C I O */
 .inicio {
-    background: linear-gradient(to top, rgba(92, 92, 92, 0), rgba(83, 83, 83, 0.397)),
-        url(img/retro-delorean-floating-moewalls-com.gif);
+    background: linear-gradient(to top, rgba(37, 37, 37, 0.575),rgba(201, 199, 199, 0.233)), url(img/retro-delorean-floating-moewalls-com.gif);
     background-size: cover;
     height: 100vh;
-    color: #fff;
+    color: #ffffff;
     display: flex;
     align-items: center;
 }
@@ -774,7 +773,7 @@ html {
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-swidth: 350px;
+    max-width:  350px;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 15px;
@@ -1024,4 +1023,22 @@ footer .arriba {
     padding: 10px; /* Adicionando um espaçamento interno para melhorar a legibilidade */
     border-radius: 10px; /* Adicionando um arredondamento nos cantos */
 }
+
+
+/* novo */
+
+.icones {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 40px;
+    height: 70px;
+    padding: 20px; /* Ajuste o preenchimento conforme necessário */
+    box-sizing: border-box; /* Mantém a altura e largura incluindo padding e borda */
+    align-items: center; /* Centraliza verticalmente os elementos dentro da div */
+    overflow: hidden; /* Evita que os ícones ultrapassem os limites da div */
+}
+
+
+
 
