@@ -773,10 +773,11 @@ html {
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-width:  350px;
+    max-width:  450px;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 15px;
+    width: 100%;
 }
 
 .contacto .col .info ul {
@@ -1013,30 +1014,24 @@ footer .arriba {
 }
 
 
-/* .text-shadow {
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
-} */
-
 .text-shadow {
-    color: white; /* Definindo a cor do texto como branco */
-    background-color: rgba(46, 48, 46, 0.437); /* Definindo uma cor de fundo com transparência */
-    padding: 10px; /* Adicionando um espaçamento interno para melhorar a legibilidade */
-    border-radius: 10px; /* Adicionando um arredondamento nos cantos */
+    color: white; 
+    background-color: rgba(46, 48, 46, 0.437);
+    border-radius: 10px; 
 }
 
 
-/* novo */
-
 .icones {
     display: flex;
+    position: relative;
     justify-content: space-around;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.788);
     border-radius: 40px;
-    height: 70px;
-    padding: 20px; /* Ajuste o preenchimento conforme necessário */
-    box-sizing: border-box; /* Mantém a altura e largura incluindo padding e borda */
-    align-items: center; /* Centraliza verticalmente os elementos dentro da div */
-    overflow: hidden; /* Evita que os ícones ultrapassem os limites da div */
+    height: 60px;
+    padding: 20px; 
+    box-sizing: border-box;
+    align-items: center;
+    overflow: hidden;
 }
 
 
