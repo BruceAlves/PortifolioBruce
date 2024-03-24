@@ -51,6 +51,7 @@ html {
     padding: 3px;
     transition: .5s;
     text-decoration: none;
+    text-align: center;
 }
 
 .contenedor-header header nav ul li a:hover {
@@ -852,7 +853,7 @@ footer .arriba {
         right: 0;
         top: 75px;
         background-color: #252A2E;
-        width: 490px;
+        width: 200px;
     }
 
     nav.responsive ul {
